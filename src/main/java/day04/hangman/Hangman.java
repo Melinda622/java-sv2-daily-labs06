@@ -31,7 +31,7 @@ public class Hangman {
             System.out.println("Itt tartasz: " + status);
             System.out.println(chances);
             System.out.println("Mi a következő tipped?");
-            //Scanner scanner = new Scanner(System.in);
+
             String guess = scanner.nextLine();
             if (wordToFind.contains(guess)) {
                 status = updateWordFound(wordToFind, status, guess);
